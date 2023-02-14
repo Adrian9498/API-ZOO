@@ -4,6 +4,7 @@ const {Router,application} = require('express');
 
 const router = Router();
 
+//Se agregan funciones desde el controlador
 const {getAllZoo,getOneZoo,getZooBudget,getZooNombre} = require('../controllers/zoo.controller');
 
 router.get('/api/zoo', getAllZoo);
