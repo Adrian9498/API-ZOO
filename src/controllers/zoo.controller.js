@@ -1,11 +1,11 @@
 const {Pool} = require('pg');
 
 const pool_zoo = new Pool({
-    host: 'localhost',
+    host: 'containers-us-west-181.railway.app',
     user: 'postgres',
-    password: '1234',
-    database : 'zoo_sql',
-    port: 5432
+    password: 'lugI0CoRww4WsyozJVAL',
+    database : 'railway',
+    port: 5593
 });
 
 const getAllZoo = async (req,res) =>{
